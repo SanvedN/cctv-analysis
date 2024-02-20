@@ -1,5 +1,6 @@
 
 # Classroom CCTV analysis
+![example](resources/example.webp)
 
 ### Problem Statement
 The conventional approach to monitoring large areas like classrooms using CCTV cameras often involves manual observation, which is time-consuming and prone to human error. We also find instances of errors during attendance in such cases. This project aims to automate object detection, mainly aimed towards detecting the number of students in a classroom using the CCTV footage of the classroom addressing the need for efficient and accurate surveillance in various domains. 
@@ -37,14 +38,12 @@ This project leverages the cvlib library to enable real-time object detection in
 
 * Integration with Alerts: Implementing an alert system that triggers notifications for specific events or object detections could enhance the system's utility in real-world applications.
 ## Screenshots
+### Orignal CCTV video footage
+![orignal-footage](resources/orignal-video.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## Demo
-
-Insert gif or link to demo
-
+### Output video footage
+The numbers to the corner represent the number of students present currently
+![output-footage](resources/output-image.png)
 
 ## How to Run the project
 
